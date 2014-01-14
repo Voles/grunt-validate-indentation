@@ -1,0 +1,43 @@
+{
+  "name": "grunt-validate-indentation",
+  "description": "A grunt task to validate the indentation of files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Voles/grunt-validate-indentation",
+  "author": {
+    "name": "Niels Dequeker",
+    "email": "niels.dequeker@gmail.com",
+    "url": "http://www.nielsdequeker.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Voles/grunt-validate-indentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Voles/grunt-validate-indentation/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Voles/grunt-validate-indentation/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
